@@ -1,4 +1,4 @@
-#!/usr/bin/perl -s
+#!/usr/bin/env perl -s
 #
 # take a latex AUX file and change the bibstyle to subset or subset-nocomment
 # depending on if the -c flag was given (-c means use comments), then rename
