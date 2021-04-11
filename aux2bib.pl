@@ -8,14 +8,13 @@
 # paper.  The \bibliography{} command in the latex file will need to be changed
 # to use the newly generated bibliography.
 #
-# assumes subset.bst and subset-nocomment.bst are in the input path
-#
 # V. Khera	07-AUG-1992
 # khera@cs.duke.edu
 #
 # Modified by Chunhua Shen, April 2012
+# Script generates subset.bst and subset-nocomment.bst 
 #
-
+#
 
 
 
