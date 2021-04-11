@@ -84,8 +84,14 @@ fi
 if [ ! -z "$2" ]; then
 	OFILE="$2"
 else
-	OFILE="-"
+
+    #
+    #	OFILE="-"
+    #   CS:
+    #
+    OFILE="_Output_compressed_`date +'%m-%d-%Y_%M%S'`.pdf"
 fi
+
 
 # Output resolution defaults to 72 unless given:
 if [ ! -z "$3" ]; then
